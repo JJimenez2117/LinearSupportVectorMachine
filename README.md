@@ -24,6 +24,12 @@ La función que nos ayudará a maximizar el margen es la siguiente:
 
 La expresión (1) recibe el nombre de función de pérdida (loss function). En esta expresión, x son los datos, y es el resultado conocido y f(x) es la predicción que hacemos
 
+### Ventajas
+Los clasificadores de Máquinas de Vectores de Soporte ofrecen una buena precisión y realizan predicciones más rápidas en comparación con el algoritmo de Naive Bayes. También utilizan menos memoria porque utilizan un subconjunto de puntos de entrenamiento en la fase de decisión. Este algoritmo funciona bien con un claro margen de separación y con un espacio dimensional elevado.
+
+### Desventajas
+Las Máquinas de Vectores de Soporte no son adecuadas para grandes conjuntos de datos debido a su alto tiempo de formación y también requiere más tiempo de formación en comparación con Naive Bayes. Funciona mal con clases superpuestas y también es sensible al tipo de núcleo utilizado.
+
 ### Videos
 
 https://youtu.be/QoRBenaGzzw
