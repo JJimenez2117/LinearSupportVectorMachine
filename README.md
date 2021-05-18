@@ -30,6 +30,7 @@ La función matemática utilizada para la transformación se conoce como funció
 - Polinómico
 - Función de base radial (RBF)
 - Sigmoide
+
 Una función kernel lineal es recomendable si la separación lineal de los datos es sencilla. En otros casos, se debe utilizar una del resto de las funciones. Deberá experimentar con las diferentes funciones para obtener el mejor modelo en cada caso, ya que utilizan algoritmos y parámetros diferentes.
 
 ### Ventajas
