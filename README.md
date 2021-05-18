@@ -1,6 +1,6 @@
 # LinearSupportVectorMachine
 
-Todavia estamos investigando sobre el tema y programa, cualquier cosa pregunten
+
 
 ### ¿Que son las maquinas de vectores de soporte?
 Una maquina de vectores de soporte (SVM) es un algoritmo de aprendizaje supervisado que se utiliza para muchos problemas de clasificacion y regresion, incluidas aplicaciones medicas de procesamiento de señales, procesamiento de lenguaje natural y reconocimiento de voz e imagenes.
