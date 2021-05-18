@@ -24,6 +24,14 @@ La función que nos ayudará a maximizar el margen es la siguiente:
 
 La expresión (1) recibe el nombre de función de pérdida (loss function). En esta expresión, x son los datos, y es el resultado conocido y f(x) es la predicción que hacemos
 
+### Tipos
+La función matemática utilizada para la transformación se conoce como función kernel. Por lo regular admiten:
+- Lineal
+- Polinómico
+- Función de base radial (RBF)
+- Sigmoide
+Una función kernel lineal es recomendable si la separación lineal de los datos es sencilla. En otros casos, se debe utilizar una del resto de las funciones. Deberá experimentar con las diferentes funciones para obtener el mejor modelo en cada caso, ya que utilizan algoritmos y parámetros diferentes.
+
 ### Ventajas
 Los clasificadores de Máquinas de Vectores de Soporte ofrecen una buena precisión y realizan predicciones más rápidas en comparación con el algoritmo de Naive Bayes. También utilizan menos memoria porque utilizan un subconjunto de puntos de entrenamiento en la fase de decisión. Este algoritmo funciona bien con un claro margen de separación y con un espacio dimensional elevado.
 
@@ -48,3 +56,4 @@ https://idus.us.es/bitstream/handle/11441/43808/Mart%C3%ADn%20Guare%C3%B1o%2C%20
 
 https://www.mathworks.com/discovery/support-vector-machine.html
 
+https://www.ibm.com/docs/es/spss-modeler/SaaS?topic=models-how-svm-works
